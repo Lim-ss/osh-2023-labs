@@ -36,7 +36,7 @@ std::vector<std::string> spilt(std:: string s,const std::string& d)
 }
 int main()
 {
-    string test ="1,2,3,4,.5,6";
+    string test ="1,2,3,4,.5,6";//测试结果,可改为其他字符串
     vector a = spilt(test,",.");
     for(auto p = a.begin();p != a.end();p++)
     {
